@@ -5,7 +5,6 @@ const getRequest = async () => {
     const data = await response.json();
 
     console.log(data);
-    console.log("Hello World");
 }
 
 getRequest()
